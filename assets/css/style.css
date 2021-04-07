@@ -5,14 +5,14 @@
 }
 
 body {
-    background-color: rgb(212, 190, 209);
+    background-color: white;
     margin: 0;
     padding: 0;
 }
 
 .header {
-    color: lightpink;
-    background-color:lightpink;
+    color: white;
+    background-color: white;
     padding-top: 15px;
     padding-bottom: 15px;
     padding-left: 0px;
@@ -22,7 +22,7 @@ body {
 .header h1 {
     display: inline-block;
     font-size: 45px;
-    background-color: hotpink;
+    background-color: rgb(85, 13, 25);
     box-sizing: border-box;
     padding-left: 70px;
     padding-right: 20px;
@@ -46,23 +46,22 @@ body {
 }
 
 a {
-    color: hotpink;
+    color: rgb(85, 13, 25);
     text-decoration: underline;
 }
 
-.image {
+#photo1 {
     height: 200px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("./pink_snake_print.jpg");
-    background-size: cover;
-    background-position: center;
+    background-image: url('./assets/images/Photo1rep.jpg');
+    background-size: 100% 100%;
 }
 
 .image_text {
     position: relative;
     text-align: center;
-    color: lightpink;
+    color: white;
 
 }
 
@@ -70,9 +69,7 @@ a {
     position: absolute;
     bottom: 35px;
     right:16px;
-    background-color: hotpink;
     font-size: 48px;
-    box-sizing: border-box;
     font-family: Marker Felt, fantasy;
     padding-left: 10px;
 }
@@ -109,6 +106,7 @@ a {
 
 .float-right {
     float: center;
+    padding-right: 17%;
     padding-left: 15%;
     margin-left: 377px;
     line-height: 150%;
@@ -159,13 +157,13 @@ a {
 
 .contact-me ul {
     float: right;
-    padding: 2%;
     padding-top: 145px;
-    padding-left: 26%;
+    padding-left: 308px;
     margin-right: -150px;
     font-size: 15px;
     border-left: 3px solid black;
 }
 .info {
     color:black;
+    padding: 7px;
 }
