@@ -10,6 +10,7 @@ body {
     padding: 0;
 }
 
+/* Heading */
 .header {
     color: white;
     background-color: white;
@@ -80,12 +81,14 @@ a {
     margin-top: 0;
 }
 
+/* About-me section*/
 .about-me h2 {
     float: left;
     font-family: Marker Felt, fantasy;
     font-size: 45px;
 }
 
+/*Work Section*/
 .work h2 {
     float: left;
     font-family: Marker Felt, fantasy;
@@ -94,7 +97,7 @@ a {
     margin-left: -80px;
 }
 
-
+/*Contact  Section*/
 .contact-me h2 {
     float: left;
     font-family: Marker Felt, fantasy;
@@ -112,34 +115,42 @@ a {
     line-height: 150%;
     text-align: left;
     font-size: 15px;
-    border-left: 3px solid black;
+   
 }
 
+/*Links to work*/
 .placeholder0 {
+    width: 800px;
+    height: 300px;
     padding: 5%;
     padding-bottom: 4px;
     float: right;
-    border-left: 3px solid black;
 }
 
 .placeholder1 {
+    width:400px;
+    height: 125px;
     padding: 5%;
     padding-left: 0px;
-    padding-top: 0px;
-    padding-bottom: 1px;
+    padding-top: 1px;
+    padding-bottom: 0px;
     float: right;
 }
 
 .placeholder2 {
+    width: 400px;
+    height: 125px;
     padding: 5%;
     padding-right: 0px;
     padding-top: 1px;
     padding-bottom: 0px;
     float: right;
-    border-left: 3px solid black;
 }
 
-.placeholder3 {
+/*Commented out until other work is displayed*/
+/*.placeholder3 {
+    width: 400px;
+    height: 125px;
     padding: 5%;
     padding-top: 0px;
     padding-left: 0px;
@@ -147,21 +158,21 @@ a {
 }
 
 .placeholder4 {
+    width: 400px;
+    height: 125px;
     padding: 0px;
     padding-top: 0px;
     padding-right: 0px;
     padding-left: 5%;
     float: right;
     border-left: 3px solid black;
-}
+}*/
 
 .contact-me ul {
     float: right;
-    padding-top: 145px;
-    padding-left: 308px;
-    margin-right: -150px;
-    font-size: 15px;
-    border-left: 3px solid black;
+    margin-right: 208px;
+    font-size: 17px;
+    padding-top: 4%;
 }
 .info {
     color:black;
