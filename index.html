@@ -1,78 +1,96 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <title>My Working Portfolio</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <!-- CSS: Bootstrap, Font Awesome, Google Font -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/css2?family=Michroma&display=swap" rel="stylesheet">
+  <!-- CSS: Custom -->
+  <link rel="stylesheet" href="./assets/css/style.css" />
+  <title>My Portfolio</title>
 </head>
 
 <body>
-  
-    <div class="header">
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <div class="jumbotron">
         <h1>Jada Desormeaux</h1>
-        <div>
-            <ul>
-                <li>
-                    <a href="#about-me">About Me</a>
-                </li>
-                <li>
-                    <a href="#work">Work</a>
-                </li>
-                <li>
-                    <a href="#contact-me">Contact Me</a>
-                </li>
-                <li>
-                    <a href="#resume">Resume</a>
-                </li>
+
+        <!--Navbar-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" id="aboutmeNav" href="#aboutmeNav">About Me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="workNav" href="#workNav">Work</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="contactmeNav" href="#contactmeNav">Contact Me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="resumeNav" href="#resumeNav">Resume</a>
+              </li>
             </ul>
-        </div>
+          </div>
+        </nav>
+      </div>
     </div>
-    <div class="image">
-        <img src="./assets/images/Photo1rep.jpg" id="photo1">
+  </header>
+
+  <!-- Background image -->
+  <div class="bg-image"></div>
+
+  <!-- Page Info -->
+  <div class="content-about">
+    <div id="about-me" class="about-me">
+        <h2 >About Me</h2>
+        <p> 
+            In December 2019 I received my Associates degree in Information Technology. 
+            While I was in school I took Intro to Technology, Programming Logic 
+            and Design, Microsoft Access and Excel, A+ Hardware, Networking, and Project Management. 
+            I got a lot of experience and knowledge in almost all 
+            fields of IT but I don't believe I've found my niche. I took coding in high school for 
+            two years and I really did enjoy doing that because there's
+            a lot of room for creativity and allows my work to really show/reflect who I am.
+            My hobbies or favorite things to do outside of school or work is baking 
+            and watching movies. I also run a busines where I sell a variety of accessories 
+            such as sunglasses, purses, and necklaces.
+         </p>
     </div>
-    <div class="image_text">
-       <div class="bottom-right">Welcome to My page!</div>
+
+    <div id="work" class="work">
+      <h2 style="float: left;">Work</h2>
+      <div class="photoBorder" id="photoBorder">
+         <a href="https://jadae789.github.io/prework-about-me/" target="_blank" > <img src="./assets/images/aboutmePic.PNG" class="placeholder0"></a>
+         <a href="https://jadae789.github.io/code_refactor_hw1/" target="_blank"> <img src="./assets/images/horiseonPic.PNG" class="placeholder1"></a>
+         <a href="https://spfave.github.io/fitness-exercise-food-selector/" target="_blank"> <img src="./assets/images/fandfPic.PNG" class="placeholder2"></a>
+         <a href="https://github.com/jorozco4/SneakerHype" target="_blank" > <img src="./assets/images/SS-Homepage.PNG" class="placeholder3"></a>
+      </div>
     </div>
-    <div class="content">
-       <div id="about-me" class="about-me">
-           <h2 style="float: left;">About Me</h2>
-           <p class="float-right"> 
-               In December 2019 I received my Associates degree in Information Technology. 
-               While I was in school I took Intro to Technology, Programming Logic 
-               and Design, Microsoft Access and Excel, A+ Hardware, Networking, and Project Management. 
-               I got a lot of experience and knowledge in almost all 
-               fields of IT but I don't believe I've found my niche. I took coding in high school for 
-               two years and I really did enjoy doing that because there's
-               a lot of room for creativity and allows my work to really show/reflect who I am.
-           </p>
-           <p class="float-right">
-               My hobbies or favorite things to do outside of school or work is baking 
-               and watching movies. I also run a busines where I sell a variety of accessories 
-               such as sunglasses, purses, and necklaces.
-            </p>
-       </div>
-       <div id="work" class="work">
-           <h2 style="float: left;">Work</h2>
-           <div class="photoBorder" id="photoBorder">
-              <a href="https://jadae789.github.io/prework-about-me/" target="_blank" > <img src="./assets/images/aboutmePic.PNG" class="placeholder0"></a>
-              <a href="https://jadae789.github.io/code_refactor_hw1/" target="_blank"> <img src="./assets/images/horiseonPic.PNG" class="placeholder1"></a>
-              <a href="https://spfave.github.io/fitness-exercise-food-selector/" target="_blank"> <img src="./assets/images/fandfPic.PNG" class="placeholder2"></a>
-           </div>
-       </div>
-       <div id="contact-me" class="contact-me">
-           <h2 style="float: left;">Contact Me</h2>
-           <ul>
-               <a href="tel:202-746-8048" class="info">202-746-8048</a>
-               <a href="mailto:JadaE789@gmail.com" class="info">JadaE789@gmail.com</a>
-               <a href="https://github.com/JadaE789" class="info">GitHub</a>
-               <a href="https://www.linkedin.com/in/jada-desormeaux-76b689199/" class="info">Linked-In</a>
-          </ul>  
-     </div>
-     <div id="resume" class="resume">
-       <h2 style="float: left;">Resume</h2>
-       <a href="C:\Users\Jada\Documents\IT Resume.docx" class="resumefile" id="resumefile">Click here to view my updated resume!</a>
-     </div>
-    </div>
+
+  <!-- JS: JQuery, Foundation, Moment.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+  <!-- JS: Custom -->
+  <script src="./assets/js/script.js"></script>
 </body>
 </html>

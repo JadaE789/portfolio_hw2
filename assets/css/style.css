@@ -5,190 +5,38 @@
 }
 
 body {
-    background-color: white;
+    background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20210324/pngtree-abstract-playful-portfolio-pink-memphis-image_593415.jpg);
     margin: 0;
     padding: 0;
 }
 
 /* Heading */
-.header {
-    color: white;
-    background-color: white;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-left: 0px;
-    font-family: Marker Felt, fantasy;
-}
-
-.header h1 {
-    display: inline-block;
-    font-size: 45px;
-    background-color: rgb(85, 13, 25);
-    box-sizing: border-box;
-    padding-left: 70px;
-    padding-right: 20px;
-}
-
-.header div {
-    padding-top: 15px;
-    margin-right: 20px;
-    float: right;
-    font-family: Marker Felt, fantasy;
-    font-size: 20px;
-}
-
-.header div ul {
-    list-style-type: none;
-}
-
-.header div ul li {
-    display: inline-block;
-    margin-left: 25px;
-}
-
-a {
-    color: rgb(85, 13, 25);
-    text-decoration: underline;
-}
-
-#photo1 {
-    height: 200px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-image: url('./assets/images/Photo1rep.jpg');
-    background-size: 100% 100%;
-}
-
-.image_text {
-    position: relative;
+h1 {
     text-align: center;
-    color: white;
-
+    color: black;
 }
 
-.bottom-right {
-    position: absolute;
-    bottom: 35px;
-    right:16px;
-    font-size: 48px;
-    font-family: Marker Felt, fantasy;
-    padding-left: 10px;
+#navbarNav {
+    justify-content: center;
 }
 
-.content {
-    margin-left: 10%;
-    margin-right: 1%;
-    margin-top: 0;
+.jumbotron {
+    background-color:rgb(252, 189, 189);
 }
 
-/* About-me section*/
-.about-me h2 {
-    float: left;
-    font-family: Marker Felt, fantasy;
-    font-size: 45px;
+
+#about-me h2 {
+    text-align: center;
 }
 
-/*Work Section*/
-.work h2 {
-    float: left;
-    font-family: Marker Felt, fantasy;
-    font-size: 45px;
-    padding: 11%;
-    margin-left: -80px;
+#about-me {
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
-/*Contact  Section*/
-.contact-me h2 {
-    float: left;
-    font-family: Marker Felt, fantasy;
-    font-size: 45px;
-    padding: 11%;
-    margin-left: -125px;
-}
-
-.resume h2 {
-    float: left;
-    font-family: Marker Felt, fantasy;
-    font-size: 45px;
-    padding: 11%;
-    margin-left: -450px;
-    padding-top: 250px;
-}
-
-.float-right {
-    float: center;
-    padding-right: 17%;
-    padding-left: 15%;
-    margin-left: 377px;
-    line-height: 150%;
-    text-align: left;
-    font-size: 15px;
-   
-}
-
-/*Links to work*/
-.placeholder0 {
-    width: 800px;
-    height: 300px;
+.about-me p {
+    font-size: 21px;
+    background-color: whitesmoke;
+    text-align: center;
     padding: 5%;
-    padding-bottom: 4px;
-    float: right;
-}
-
-.placeholder1 {
-    width:400px;
-    height: 125px;
-    padding: 5%;
-    padding-left: 0px;
-    padding-top: 1px;
-    padding-bottom: 0px;
-    float: right;
-}
-
-.placeholder2 {
-    width: 400px;
-    height: 125px;
-    padding: 5%;
-    padding-right: 0px;
-    padding-top: 1px;
-    padding-bottom: 0px;
-    float: right;
-}
-
-/*Commented out until other work is displayed*/
-/*.placeholder3 {
-    width: 400px;
-    height: 125px;
-    padding: 5%;
-    padding-top: 0px;
-    padding-left: 0px;
-    float: right;
-}
-
-.placeholder4 {
-    width: 400px;
-    height: 125px;
-    padding: 0px;
-    padding-top: 0px;
-    padding-right: 0px;
-    padding-left: 5%;
-    float: right;
-    border-left: 3px solid black;
-}*/
-
-.contact-me ul {
-    float: right;
-    margin-right: 208px;
-    font-size: 17px;
-    padding-top: 4%;
-}
-.info {
-    color:black;
-    padding: 7px;
-}
-
-.resumefile {
-    float: right;
-    padding-top: 210px;
-    margin-right: 300px;
 }
