@@ -1,11 +1,42 @@
 # portfolio_hw2
 
-For this weeks homework our assignment was to create a working and live site where we will be able too store our work that we complete throughout the class.
-This particular assignment gave me trouble in a couple of places:
-  1. Positioning the pictures w/ padding
-  2. Spacing out the content in the Contact-me section
-  3. The border line in the middle separating the two headers and the content
-The header links all work and when they are clicked they direct you to that specific area.
-The first application when scrolling to the work section is sized the biggest and all rest are smaller and sized the same. Currently, the images there are placeholder images because I don't have any webpages to showcase. 
+ ## Table of Contents
 
-Link to application:  https://jadae789.github.io/portfolio_hw2/
+  * [Project Description](#project-description)
+  * [Contributing](#contributing)
+  * [Demo Video](#Project-Demo-Video)
+  * [Questions?](#questions)
+  
+  ## Project Description
+  
+  A working and live site where I have have stored all my live homework and projects
+
+  ## Contributing
+  
+  Jada Desormeaux
+  
+  ## Project Links and Github Repo
+  Title: About Me
+  Link: https://jadae789.github.io/prework-about-me/
+  GitHub: https://github.com/JadaE789/prework-about-me
+
+  Title: Code Refactor
+  Link: https://jadae789.github.io/code_refactor_hw1/
+  GitHub: https://github.com/JadaE789/code_refactor_hw1
+
+  Title: Food and Fitness
+  Link: https://spfave.github.io/fitness-exercise-food-selector/
+  GitHub: https://github.com/spfave/fitness-exercise-food-selector
+  
+  Title: Sneaker Hype
+  Link: https://sneakerhype.herokuapp.com/
+  GitHub: https://github.com/jorozco4/SneakerHype
+  
+  ## Questions
+  
+  Feel free to ask me any questions.
+  
+  Github username: JadaE789
+  
+  Github Email: <JadaE789@gmail.com>
+ 

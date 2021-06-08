@@ -15,6 +15,7 @@ h1 {
     text-align: center;
     color: black;
     font-family: 'Viaoda Libre';
+    font-weight: bolder;
 }
 
 #navbarNav {
@@ -30,6 +31,7 @@ h1 {
     text-align: center;
     padding-bottom: 5%;
     font-family: 'Viaoda Libre';
+    font-weight: bolder;
 }
 
 #about-me {
@@ -49,6 +51,7 @@ h1 {
     padding-top: 5%;
     padding-bottom: 5%;
     font-family: 'Viaoda Libre';
+    font-weight: bolder;
 }
 
 .placeholder0 {
@@ -73,11 +76,13 @@ h1 {
     height: 250px;
 }
 
+
 h3 {
     text-align: center;
     padding-top: 5%;
     padding-bottom: 5%;
     font-family: 'Viaoda Libre';
+    font-weight: bolder;
 }
 
 .info {
@@ -92,6 +97,7 @@ h4 {
     padding-top: 5%;
     padding-bottom: 5%;
     font-family: 'Viaoda Libre';
+    font-weight: bolder;
 }
 
 .resumeFile {
